@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c2a4d"/>
+      <stop offset="100%" stop-color="#07172b"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#bgGrad)" stroke="#38bdf8" stroke-width="2.5"/>
+  <!-- Droplet & Pipe Wave Geometry -->
+  <path d="M50 16 C50 16 30 38 30 56 C30 67.05 38.95 76 50 76 C61.05 76 70 67.05 70 56 C70 38 50 16 50 16 Z" fill="url(#waterGrad)"/>
+  <!-- Inner Dynamic Water Flow Ripple -->
+  <path d="M42 50 C46 45 54 45 58 50 C62 55 58 64 50 64 C42 64 38 55 42 50 Z" fill="#ffffff" opacity="0.85"/>
+  <circle cx="50" cy="36" r="4" fill="#ffffff" opacity="0.9"/>
+</svg>
